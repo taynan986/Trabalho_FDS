@@ -1,0 +1,40 @@
+#message {
+    visibility: hidden;
+}
+
+p, li, td {
+    font-size: large;
+}
+
+li:not(:first-child) {
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    margin-top: 20px;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 20px;
+}
+
+table {
+    margin-top: 20px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+tr, td {
+    text-align: center;
+    border-bottom: 2px;
+    border-style: solid;
+}
+
+a:hover {
+    color: aqua;
+}
